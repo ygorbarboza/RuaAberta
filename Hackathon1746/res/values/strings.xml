@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hackathon1746</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="google_service_avaliable">Google Play Service Disponivel</string>
+    <string name="title_activity_teste">TesteActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+
+    <string-array name="tipos_de_obstaculos">
+        <item>Porta de garagem</item>
+        <item>Ponto de ônibus</item>
+        <item>Faixa de pedestre</item>
+        <item>Placa de proibido estacionar</item>
+        <item>Ponto de táxi</item>
+        <item>Vaga de portadores de necessidades especiais</item>
+        <item>Local de carga e descarga</item>
+        <item>Ciclovia</item>
+        <item>Flanelinha</item>
+        <item>Lugar inseguro / risco de roubo</item>
+    </string-array>
+    <string-array name="lado_da_rua">
+        <item>Ambos</item>
+        <item>Par</item>
+        <item>Ímpar</item>
+    </string-array>
+    <string-array name="posicao_do_estacionamento">
+        <item></item>
+        <item>ao longo da via</item>
+        <item>30 graus</item>
+        <item>45 graus</item>
+        <item>60 graus</item>
+        <item>90 graus</item>
+        <item>Livre</item>
+    </string-array>
+    <string-array name="tempo_de_permanencia">
+        <item>Rotativo 2 horas</item>
+        <item>Rotativo 4 horas</item>
+        <item>Rotativo único</item>
+        <item>Não precisa de tícket</item>
+    </string-array>
+    <string-array name="periodo_de_funcionamento">
+        <item></item>
+        <item>XXX</item>
+        <item>XXX</item>
+        <item>XXX</item>
+        <item>XXX</item>
+        <item>XXX</item>
+        <item>XXX</item>
+    </string-array>
+    <string-array name="comentarios">
+        <item></item>
+        <item>XXX</item>
+        <item>XXX</item>
+        <item>XXX</item>
+        <item>XXX</item>
+        <item>XXX</item>
+        <item>XXX</item>
+    </string-array>
+    <string-array name="problemas">
+        <item>Foi danificado</item>
+        <item>Apareceu um flanelinha</item>
+        <item>Recebi uma multa</item>
+        <item>Não estava lá</item>
+        <item>Livre</item>
+    </string-array>
+    <string-array name="posicao_do_estacionamento">
+        <item>Sobre a calçada</item>
+        <item>Em via pública</item>
+        <item>Em frente a um portão de garagem</item>
+        <item>Em local com placa de proibido estacionamento</item>
+        <item>Em ponto de taxi</item>
+        <item>Em vaga de pessoas com deficiência</item>
+        <item>Em local de carga e descarga</item>
+        <item>Em ciclovia</item>
+        <item>Roubo de carro</item>
+        <item>Flanelinha</item>
+    </string-array>
+
+    <string name="title_activity_back">BackActivity</string>
+    <string name="title_activity_report">ReportActivity</string>
+    <string name="title_activity_congratulation">CongratulationActivity</string>
+
+</resources>

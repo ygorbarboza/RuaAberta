@@ -1,0 +1,136 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    tools:context=".GeoFenceActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/textButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_cell"
+        android:text="VOCÊ ESTACIONOU!" />
+
+    <TextView
+        android:id="@+id/street_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Rua Barão da torre 40-80"
+        android:textColor="@color/grayTextColor"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/info_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/street_textview"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="4 horas - Ambos os lados - Ao longo da via"
+        android:textColor="@color/grayTextColor" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/info_textView"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:text="Como foi para encontrar a vaga?"
+        android:textColor="@color/grayTextColor"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radio0"
+            style="@style/radioButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/bad"
+            android:text="Milagre" />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            style="@style/radioButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ok"
+            android:text="Marromeno" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            style="@style/radioButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/great"
+            android:text="Facinho" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioGroup1"
+        android:layout_marginTop="8dp" >
+
+        <Button
+            style="@style/textButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_blue"
+            android:onClick="onAfterCLicked"
+            android:text="DEPOIS" />
+
+        <Button
+            style="@style/textButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_green"
+            android:onClick="onOKClicked"
+            android:text="OK" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linearLayout1"
+        android:background="@drawable/bg_cell" >
+
+        <TextView
+            android:id="@+id/descriptionTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ticket Rotativo 4 horas"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/descriptionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/descriptionTitleTextView"
+            android:text="Não esqueça de comprar seu tíquete de estacionamento.\n Avisaremos quando seu tempo estiver acabando."
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+</RelativeLayout>

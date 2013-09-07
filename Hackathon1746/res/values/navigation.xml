@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="navigation_item" >
+        <item >Login</item>
+        <item >Criar conta</item>
+    </string-array>
+
+    <array name="navigation_icon">
+        <item >@drawable/ic_launcher</item>
+        <item >@drawable/ic_launcher</item>
+    </array>
+    
+</resources>
